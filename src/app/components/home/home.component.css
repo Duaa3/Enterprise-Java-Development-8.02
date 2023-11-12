@@ -1,0 +1,38 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3498db; /* Blue color for the heading */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
