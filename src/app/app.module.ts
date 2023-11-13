@@ -17,24 +17,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
-const routes: Routes = [
-  {
-    path: "", // Default home page
-    component: HomeComponent,
-  },
-  {
-    path: "contact",
-    component: ContactComponent,
-  },
-  {
-    path: "about",
-    component: AboutComponent,
-  },
-  {
-    path: "**", 
-    component: PageNotFoundComponent,
-  },
-];
+
 
 @NgModule({
   declarations: [
@@ -48,7 +31,7 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(routes), 
+    RouterModule, 
     ReactiveFormsModule,
     MatButtonModule,
     MatInputModule,
